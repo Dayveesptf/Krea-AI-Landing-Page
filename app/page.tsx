@@ -170,7 +170,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Mobile Right Actions */}
+        {/* Mobile Right Actions (only show bell icon) */}
         <div className="md:hidden flex items-center gap-2">
           <div className="p-3 bg-gradient-to-tl from-[#7a6bffb3] to-[#e29afe96] rounded-full border-0"></div>
         </div>
@@ -232,7 +232,7 @@ export default function Home() {
       )}
 
       <div className="h-auto md:h-[80vh] w-11/12 md:w-10/12 mx-auto overflow-hidden mt-0 md:mt-0">
-        <div className="mt-18 md:mt-24">
+        <div className="mt-20 md:mt-24">
           {/* Slides */}
             <div
               className="flex transition-transform duration-700 ease-in-out w-full md:w-4/7 gap-4 md:gap-28 mb-7"
