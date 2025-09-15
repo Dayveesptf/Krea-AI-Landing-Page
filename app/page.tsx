@@ -285,7 +285,7 @@ export default function Home() {
               ))}
             </div>
 
-          <div className="flex items-center gap-4 relative w-full md:w-4/7 justify-between mt-4 md:mt-[-1.5%]">
+          <div className="flex items-center gap-4 relative w-full md:w-4/7 md:mr-0 md:ml-auto justify-between mt-4 md:mt-[-1.5%]">
             {/* Pagination Dots */}
             <div className="flex gap-2">
               {slides.slice(0, isMobile ? 5 : slides.length).map((_, i) => (
